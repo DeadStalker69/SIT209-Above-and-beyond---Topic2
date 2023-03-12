@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LED toggle </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img src="Light.png" style="height: 350px; padding: 0px; margin-left: 10%; margin-top: 5%" id="Bulb1" class="glow-effect">
+    <img src="Light.png" style="height: 350px; padding: 0px; margin-left: 4%; margin-top: 5%" id="Bulb2" class="glow-effect">
+    <img src="Light.png" style="height: 350px; padding: 0px; margin-left: 4%; margin-top: 5%;" id="Bulb3" class="glow-effect">
+	
+    <label class="switch1" style="margin-top: 5%; margin-left: 19%;">
+		<input type="checkbox" id="slider1">
+		<span class="slider"></span>
+	</label>
+    <label class="switch2" style=" margin-left: 24%; ">
+		<input type="checkbox" id="slider2">
+		<span class="slider"></span>
+	</label>
+    <label class="switch3" style="margin-left: 24%;">
+		<input type="checkbox" id="slider3">
+		<span class="slider"></span>
+	</label>
+
+    <div class="menu1" style="margin-top: 5%; margin-left: 19.5%;">
+    <button class="button1" id="color2">Color</button>
+    <div class="dropdown1">
+      <a href="#"><button id="red1">Red</button></a>
+      <a href="#"><button id="green1">Green</button></a>
+      <a href="#"><button id="yellow1">Yellow</button></a>
+    </div>
+    </div>  
+
+    <div class="menu2" style="margin-top: 5%;margin-left: 24.5%;">
+        <button class="button2" id="color2">Color</button>
+        <div class="dropdown2">
+          <a href="#"><button id="red2">Red</button></a>
+          <a href="#"><button id="green2">Green</button></a>
+          <a href="#"><button id="yellow2">Yellow</button></a>
+        </div>
+        </div>
+
+        <div class="menu3" style="margin-top: 5%; margin-left: 52.7%;">
+            <button class="button3" id="color2">Color</button>
+            <div class="dropdown3">
+              <a href="#"><button id="red3">Red</button></a>
+              <a href="#"><button id="green3">Green</button></a>
+              <a href="#"><button id="yellow3">Yellow</button></a>
+            </div>
+        </div>  
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="function.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  
+</body>
+</html>
